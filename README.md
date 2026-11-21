@@ -16,3 +16,8 @@ forward that answers to both.
 
 `main.ts` (Node 22, no dependencies, no network) writes the poem to
 `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt` outside the sandbox).
+
+## Verification
+
+Poem: 253 Unicode code points, UTF-8, non-whitespace. Two local runs produce
+byte-identical `entry.txt`.
